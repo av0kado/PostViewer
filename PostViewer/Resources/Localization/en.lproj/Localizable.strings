@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  PostViewer
+
+  Created by Amir Zigangarayev on 19/01/2018.
+  Copyright © 2018 Amir Zigangarayev. All rights reserved.
+*/
+
+"PostsListTitle" = "News";
+"LogOutButtonTitle" = "Log out";
+"CommonAlertOKButtonTitle" = "OK";
+"PVErrorAuthorizationCancelled" = "Authorization cancelled";
+"PVErrorNotAuthorized" = "Authorization failed";
+"PVSerializationError" = "Serialization error";
+"PVUnknownError" = "An unknown error has occured";

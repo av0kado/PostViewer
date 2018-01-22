@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="ImI-Pm-yi4" customClass="PostsListSpaceCell" customModule="PostViewer" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="8"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ImI-Pm-yi4" id="Gh2-iL-nNS">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="7.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NXE-60-NVW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="8"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="8" id="9L8-vW-DwW"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="NXE-60-NVW" firstAttribute="leading" secondItem="Gh2-iL-nNS" secondAttribute="leading" id="1kj-l7-13y"/>
+                    <constraint firstAttribute="trailing" secondItem="NXE-60-NVW" secondAttribute="trailing" id="Ofl-X7-heg"/>
+                    <constraint firstItem="NXE-60-NVW" firstAttribute="top" secondItem="Gh2-iL-nNS" secondAttribute="top" id="f5n-HJ-b9K"/>
+                    <constraint firstAttribute="bottom" secondItem="NXE-60-NVW" secondAttribute="bottom" id="sWF-5k-4Yw"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="-0.5" y="0.0"/>
+        </tableViewCell>
+    </objects>
+</document>

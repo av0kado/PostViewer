@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Iyw-2O-J4l">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="c8K-2E-ezP">
+            <objects>
+                <viewController id="Iyw-2O-J4l" customClass="SplashScreenViewController" customModule="PostViewer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="e9J-Cx-WHR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="H8A-bh-hoD">
+                                <rect key="frame" x="169" y="315" width="37" height="37"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="H8A-bh-hoD" firstAttribute="centerX" secondItem="e9J-Cx-WHR" secondAttribute="centerX" id="9dZ-Sl-XSP"/>
+                            <constraint firstItem="H8A-bh-hoD" firstAttribute="centerY" secondItem="e9J-Cx-WHR" secondAttribute="centerY" id="YZq-hV-DDD"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="4Oh-cR-XHt"/>
+                    </view>
+                    <connections>
+                        <outlet property="activityIndicator" destination="H8A-bh-hoD" id="vHS-DV-0Br"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="864-G4-Q5C" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="oSO-nA-NIf" customClass="SplashScreenModuleConfigurator" customModule="PostViewer" customModuleProvider="target">
+                    <connections>
+                        <outlet property="viewController" destination="Iyw-2O-J4l" id="U39-6L-ENK"/>
+                    </connections>
+                </customObject>
+            </objects>
+            <point key="canvasLocation" x="79" y="129"/>
+        </scene>
+    </scenes>
+</document>

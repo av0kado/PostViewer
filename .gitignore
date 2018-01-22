@@ -1,0 +1,17 @@
+## Various settings
+*.pbxuser
+xcuserdata/
+
+## Other
+*.moved-aside
+*.xcuserstate
+*.DS_Store
+
+Pods/Pods.xcodeproj/xcuserdata/*
+Pods/.DS_Store
+
+## Obj-C/Swift specific
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM

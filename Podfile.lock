@@ -1,0 +1,17 @@
+PODS:
+  - SDWebImage (4.2.2):
+    - SDWebImage/Core (= 4.2.2)
+  - SDWebImage/Core (4.2.2)
+  - SwiftyVK (3.1.2)
+
+DEPENDENCIES:
+  - SDWebImage
+  - SwiftyVK
+
+SPEC CHECKSUMS:
+  SDWebImage: 89a9d32cd520bbb46eb14e541d5109b3564af198
+  SwiftyVK: b32b7587c208f5d74527d686296f8d6c58436f8f
+
+PODFILE CHECKSUM: c2f21455ec7b470b8319fe3bfe2e246d4af8f57f
+
+COCOAPODS: 1.2.1

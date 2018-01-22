@@ -1,0 +1,6 @@
+framework module Pods_PostViewerTests {
+  umbrella header "Pods-PostViewerTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
